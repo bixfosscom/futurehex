@@ -1,10 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 
 *{
-  /*font-family: 'Lexend', sans-serif;;*/
-  font-family: 'Poppins', sans-serif;
-  /*background-color: white;*/
+  font-family: 'Lexend', sans-serif;;
   color:black;
   font-size: 14px;
   }
@@ -19,6 +15,11 @@ hr{
 .body-form{
   padding-left: 5%;
   padding-right: 5%;
+}
+
+#link{
+  text-decoration: none;
+  color: black;
 }
 
 #section-title{
@@ -36,7 +37,7 @@ hr{
 
 #navbar-logo{
   height: auto;
-  width: 170px;
+  width: 50px;
 }
 .nav-link{
   color: black;
@@ -109,7 +110,7 @@ hr{
  
 }
 .nav-bar a:hover{
-  color: crimson;
+  color: black;
 }
 
 .img-logo-dark{
@@ -119,12 +120,9 @@ hr{
 }
 
 .img-logo-dark img {
-  width: 200px;
+  width: 100px;
   height: auto;
-  margin: 10px 25px 25px 25px;
 }
-
-
 
 /* NAVBAR END */
 
@@ -132,7 +130,7 @@ hr{
 
 #landing_card1{
   border-color: black;
-  border-width: 2px;
+  border-width: 3px;
 }
 #lading_card1_title{
   color: black
@@ -206,7 +204,34 @@ hr{
   border: none;
 }
 
+/* FOOTER */
 
-.white-hr {
-  border-color: white;
+#footer-card{
+  font-family: 'Lexend', sans-serif;
+  background-color: black;
+  
+}
+
+#footer-navs{
+  text-decoration: none;
+}
+.footer-list{
+  padding-top: 15px;
+}
+
+#footer-svg{
+  width: 25px;
+  height: auto;
+  fill: #aeafaf;
+  margin-left: 5px;
+}
+
+
+#footer-svg:hover{
+  fill: #ffffff;
+}
+
+
+#hr-footer{
+  color: gray;
 }
