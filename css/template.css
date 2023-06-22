@@ -2,3 +2,13 @@
     padding-left: 10%;
     padding-right: 10%;
 }
+
+#navbar-logo{
+    height: auto;
+    width: 150px;
+  }
+
+.img-logo-dark img {
+    width: 220px;
+    height: auto;
+  }
